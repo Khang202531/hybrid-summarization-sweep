@@ -1,0 +1,20 @@
+# Core Deep Learning & NLP
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.14.0
+bert-score>=0.3.13
+rouge-score>=0.1.2
+
+# Japanese Morphological Analysis
+fugashi>=1.3.0
+unidic-lite>=1.0.8
+
+# Data Analysis & Statistics
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualization & Reporting
+matplotlib>=3.7.0
+python-docx>=1.1.0
+psutil>=5.9.0

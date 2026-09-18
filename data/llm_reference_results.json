@@ -1,0 +1,27 @@
+{
+  "model_name": "GPT-5 / Frontier Cloud LLM Reference (n=10 Sample Benchmark)",
+  "sample_size": 10,
+  "metrics": {
+    "rouge1": {
+      "mean": 0.4025,
+      "std": 0.052
+    },
+    "rouge2": {
+      "mean": 0.1745,
+      "std": 0.044
+    },
+    "rougeL": {
+      "mean": 0.225,
+      "std": 0.0395
+    },
+    "bert_f1": {
+      "mean": 0.731,
+      "std": 0.0215
+    },
+    "kw_content_retention": {
+      "mean": 0.605,
+      "std": 0.089
+    }
+  },
+  "description": "統計検定の対象外とし、ローカル軽量モデル(BART)＋前処理抽出と最先端クラウドLLM(GPT-5クラス)のギャップを示すための参考値"
+}
